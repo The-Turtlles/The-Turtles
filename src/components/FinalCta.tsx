@@ -1,0 +1,3 @@
+import { makeWhatsAppLink } from "@/lib/whatsapp";
+import styles from "./FinalCta.module.css";
+export default function FinalCta(){return <section className={`${styles.cta} grain`}><div className="container"><span className="eyebrow">Um bom começo é uma conversa.</span><h2>Vamos tirar o seu negócio do papel?</h2><div className={styles.bottom}><p>Conte o que você quer construir. A gente conversa e encontra o caminho mais claro para começar.</p><a className="button button-light" href={makeWhatsAppLink()} target="_blank" rel="noreferrer">Chamar no WhatsApp <span className="arrow">↗</span></a></div><span className={styles.ghost} aria-hidden="true">THT</span></div></section>}

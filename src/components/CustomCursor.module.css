@@ -1,0 +1,1 @@
+.cursor{position:fixed;z-index:100;left:-5px;top:-5px;width:10px;height:10px;border-radius:50%;background:var(--cream);mix-blend-mode:difference;pointer-events:none;will-change:transform}@media(pointer:coarse),(prefers-reduced-motion:reduce){.cursor{display:none}}

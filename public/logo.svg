@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 74" role="img" aria-labelledby="title">
+<title id="title">THT Turtles</title>
+<g transform="translate(4 7)" stroke="#F5DABF" stroke-width="2.5" stroke-linejoin="round">
+<path fill="#0F3D3A" d="M31 4 48 12 54 30 45 47 28 53 12 44 6 27 14 11Z"/>
+<path fill="none" d="M31 4 28 25 48 12M28 25 54 30M28 25 12 44M28 25 45 47M14 11 28 25 6 27"/>
+<circle cx="56" cy="25" r="5" fill="#F5DABF"/><path d="M16 48 11 57M38 49 42 57" fill="none"/>
+</g>
+<text x="76" y="34" fill="#F5DABF" font-family="Arial,sans-serif" font-weight="900" font-size="27" letter-spacing="1.5">THT</text>
+<text x="77" y="55" fill="#F5DABF" font-family="Arial,sans-serif" font-size="14" letter-spacing="4">TURTLES</text>
+</svg>
