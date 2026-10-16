@@ -23,17 +23,17 @@ export const services: Service[] = [
 ];
 
 export const projects: Project[] = [
-  { id: "01", title: "[PREENCHER: nome do projeto]", author: "Luis", description: "Projeto de exemplo — apresentação digital para negócio local.", technologies: ["Next.js", "TypeScript", "CSS"], category: "Institucional", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo" },
-  { id: "02", title: "[PREENCHER: nome do projeto]", author: "Luis", description: "Projeto de exemplo — página focada em apresentar uma oferta.", technologies: ["React", "TypeScript"], category: "Landing page", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo" },
-  { id: "03", title: "[PREENCHER: nome do projeto]", author: "Luis", description: "Projeto de exemplo — catálogo organizado para consulta rápida.", technologies: ["React", "CSS"], category: "Catálogo", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo" },
-  { id: "04", title: "[PREENCHER: nome do projeto]", author: "Gustavo", description: "Projeto de exemplo — site responsivo com navegação simples.", technologies: ["Next.js", "CSS Modules"], category: "Institucional", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo" },
-  { id: "05", title: "[PREENCHER: nome do projeto]", author: "Gustavo", description: "Projeto de exemplo — landing page para campanha específica.", technologies: ["React", "TypeScript"], category: "Landing page", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo" },
-  { id: "06", title: "[PREENCHER: nome do projeto]", author: "Gustavo", description: "Projeto de exemplo — experiência digital para serviço local.", technologies: ["Next.js", "TypeScript"], category: "Serviços", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo" },
+  { id: "01", title: "[PREENCHER: nome do projeto]", author: "Luis", description: "Projeto de exemplo — apresentação digital para negócio local.", technologies: ["Next.js", "TypeScript", "CSS"], category: "Institucional", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo", image: undefined },
+  { id: "02", title: "[PREENCHER: nome do projeto]", author: "Luis", description: "Projeto de exemplo — página focada em apresentar uma oferta.", technologies: ["React", "TypeScript"], category: "Landing page", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo", image: undefined },
+  { id: "03", title: "[PREENCHER: nome do projeto]", author: "Luis", description: "Projeto de exemplo — catálogo organizado para consulta rápida.", technologies: ["React", "CSS"], category: "Catálogo", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo", image: undefined },
+  { id: "04", title: "[PREENCHER: nome do projeto]", author: "Gustavo", description: "Projeto de exemplo — site responsivo com navegação simples.", technologies: ["Next.js", "CSS Modules"], category: "Institucional", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo", image: undefined },
+  { id: "05", title: "[PREENCHER: nome do projeto]", author: "Gustavo", description: "Projeto de exemplo — landing page para campanha específica.", technologies: ["React", "TypeScript"], category: "Landing page", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo", image: undefined },
+  { id: "06", title: "[PREENCHER: nome do projeto]", author: "Gustavo", description: "Projeto de exemplo — experiência digital para serviço local.", technologies: ["Next.js", "TypeScript"], category: "Serviços", siteUrl: "#contato", codeUrl: "#contato", placeholder: "Mockup demonstrativo", image: undefined },
 ];
 
 export const team: TeamMember[] = [
-  { name: "Luis", role: "[PREENCHER: função]", bio: "[PREENCHER: mini-bio com sua experiência, foco e jeito de trabalhar.]", instagram: "https://instagram.com/goesxz.dev", email: "goesxz@gmail.com" },
-  { name: "Gustavo", role: "[PREENCHER: função]", bio: "[PREENCHER: mini-bio com sua experiência, foco e jeito de trabalhar.]", instagram: "[PREENCHER: Instagram do Gustavo]", email: "[PREENCHER: e-mail do Gustavo]" },
+  { name: "Luis", role: "[PREENCHER: função]", bio: "[PREENCHER: mini-bio com sua experiência, foco e jeito de trabalhar.]", instagram: "https://instagram.com/goesxz.dev", email: "goesxz@gmail.com", image: undefined },
+  { name: "Gustavo", role: "[PREENCHER: função]", bio: "[PREENCHER: mini-bio com sua experiência, foco e jeito de trabalhar.]", instagram: "[PREENCHER: Instagram do Gustavo]", email: "[PREENCHER: e-mail do Gustavo]", image: undefined },
 ];
 
 export const faqs: FaqItem[] = [

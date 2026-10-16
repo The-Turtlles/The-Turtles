@@ -1,4 +1,12 @@
+export type ImageAsset = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+};
+
 export type Project = {
+  image?: ImageAsset;
   id: string;
   title: string;
   author: "Luis" | "Gustavo";
@@ -11,6 +19,7 @@ export type Project = {
 };
 
 export type TeamMember = {
+  image?: ImageAsset;
   name: string;
   role: string;
   bio: string;

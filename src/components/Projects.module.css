@@ -1,2 +1,5 @@
 .projects{background:var(--green);color:var(--cream)}.section-heading p{opacity:.78}.filterBar{display:flex;align-items:center;gap:24px;padding:18px 0;border-top:1px solid rgba(245,218,191,.25);border-bottom:1px solid rgba(245,218,191,.25);margin-bottom:28px}.filterBar>div{display:flex;gap:7px}.filterBar button{border:1px solid rgba(245,218,191,.35);background:transparent;color:var(--cream);border-radius:99px;padding:9px 17px;font-size:.8rem}.filterBar button.active,.filterBar button:hover{background:var(--cream);color:var(--green)}.count{margin-left:auto;font-size:.75rem;opacity:.7}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px}
 @media(max-width:650px){.filterBar{flex-wrap:wrap;gap:14px}.filterBar .eyebrow{width:100%}.count{margin-left:auto}.grid{grid-template-columns:1fr}}
+.grid>div{min-width:0}
+.filterBar button{min-height:44px;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.filterBar button:focus-visible{outline:2px solid var(--cream);outline-offset:3px}

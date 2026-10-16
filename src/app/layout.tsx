@@ -4,6 +4,7 @@ import "./globals.css";
 import { site } from "@/data/site";
 import SmoothScroll from "@/components/SmoothScroll";
 import CustomCursor from "@/components/CustomCursor";
+import ImageFilters from "@/components/ui/ImageFilters";
 
 const display = Anton({ subsets: ["latin"], weight: "400", variable: "--font-display", display: "swap" });
 const body = DM_Sans({ subsets: ["latin"], variable: "--font-body", display: "swap" });
@@ -35,6 +36,6 @@ const jsonLd = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="pt-BR" className={`${display.variable} ${body.variable}`}>
-    <body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><SmoothScroll /><CustomCursor />{children}</body>
+    <body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ImageFilters /><SmoothScroll /><CustomCursor />{children}</body>
   </html>;
 }

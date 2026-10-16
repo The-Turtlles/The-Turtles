@@ -71,3 +71,7 @@ O site inclui navegação mobile, foco visível, formulário com mensagens acess
 - Nenhum depoimento, cliente, resultado, prêmio ou preço foi inventado.
 - Os links de projeto apontam temporariamente para a seção de contato até que URLs reais sejam preenchidas.
 - O site não inclui `node_modules`, `.next`, `out` nem `package-lock.json`.
+
+## 8. Imagens opcionais (v3)
+
+O guia completo está em [`docs/IMAGENS.md`](docs/IMAGENS.md). Projetos e membros da equipe aceitam um campo `image` opcional em `src/data/site.ts`. Use caminhos públicos como `/img/projetos/site-exemplo.webp`, dimensões reais e um texto `alt` útil. Sem esse campo, o mockup do projeto e a moldura com inicial continuam aparecendo. Comprima as imagens antes de publicar, pois a exportação estática mantém `images.unoptimized`.
